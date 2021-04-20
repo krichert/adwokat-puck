@@ -1,5 +1,5 @@
 (function () {
-    var arrow = document.getElementById("arrow-icon");
+    var arrow = document.getElementById("information-link");
     arrow.addEventListener("click", clickHandler);
 
     function clickHandler(e) {
