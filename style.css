@@ -34,7 +34,7 @@ body {
 }
 
 .title-container .contact {
-    padding-top: 2.2em;
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -128,21 +128,9 @@ footer {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 1024px) {
-
-}
-
 @media screen and (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
-
     .title-container .logo {
         width: 60%;
-    }
-
-    .title-container .contact {
-        font-size: 14px;
     }
 
     .information-container .information-column {
@@ -150,12 +138,16 @@ footer {
     }
 
     .arrow-icon {
-        font-size: 40px;
-        bottom: 10px;
+        font-size: 45px;
+        bottom: 20px;
     }
 }
 
 @media screen and (max-width: 576px) {
+    body {
+        font-size: 16px;
+    }
+
     .title-container h1 {
         font-size: 25px;
     }
@@ -167,6 +159,7 @@ footer {
     .title-container .contact {
         padding-top: 1em;
         flex-direction: column;
+        font-size: 14px;
     }
 
     .title-container .contact .contact-item {
@@ -177,5 +170,10 @@ footer {
     .information-container .information-content {
         display: flex;
         flex-direction: column;
+    }
+
+    .arrow-icon {
+        font-size: 40px;
+        bottom: 10px;
     }
 }
