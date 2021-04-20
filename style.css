@@ -29,7 +29,7 @@ body {
 }
 
 .title-container .logo {
-    width: 30%;
+    width: 40%;
     z-index: 1000;
 }
 
@@ -48,15 +48,20 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    z-index: 1000;
 }
 
 .title-container .contact .contact-item:last-child {
     border-right: none;
+    z-index: 1000;
 }
 
 .title-container .contact .contact-item svg {
     margin-right: 10px;
-    font-size: 20px;
+    z-index: 1000;
+}
+.title-container h1 {
+    z-index: 1000;
 }
 
 .arrow-icon {
@@ -84,10 +89,7 @@ body {
 }
 
 .information-container h2 {
-    margin-top: 50px;
-}
-
-.information-container h2 {
+    text-align: center;
     margin-top: 80px;
     margin-bottom: 50px;
 }
@@ -124,4 +126,56 @@ footer {
     text-align: right;
     padding: 20px;
     margin-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .title-container .logo {
+        width: 60%;
+    }
+
+    .title-container .contact {
+        font-size: 14px;
+    }
+
+    .information-container .information-column {
+        padding: 0
+    }
+
+    .arrow-icon {
+        font-size: 40px;
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .title-container h1 {
+        font-size: 25px;
+    }
+
+    .title-container .logo {
+        width: 80%;
+    }
+
+    .title-container .contact {
+        padding-top: 1em;
+        flex-direction: column;
+    }
+
+    .title-container .contact .contact-item {
+        padding: 0.5em 0;
+        border-right:none;
+    }
+
+    .information-container .information-content {
+        display: flex;
+        flex-direction: column;
+    }
 }
