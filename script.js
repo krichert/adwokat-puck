@@ -1,8 +1,6 @@
 (function () {
-    var links = document.querySelectorAll("a[href]");
-    for (var link of links) {
-        link.addEventListener("click", clickHandler);
-    }
+    var arrow = document.getElementById("arrow-icon");
+    arrow.addEventListener("click", clickHandler);
 
     function clickHandler(e) {
         e.preventDefault();
