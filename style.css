@@ -51,6 +51,11 @@ body {
     z-index: 1000;
 }
 
+.title-container .contact .contact-item a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .title-container .contact .contact-item:last-child {
     border-right: none;
     z-index: 1000;
