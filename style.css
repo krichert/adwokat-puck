@@ -138,6 +138,15 @@ footer {
         width: 60%;
     }
 
+    .title-container .contact {
+        flex-direction: column;
+    }
+
+    .title-container .contact .contact-item {
+        padding: 0.5em 0;
+        border-right:none;
+    }
+
     .information-container .information-column {
         padding: 0
     }
@@ -163,13 +172,7 @@ footer {
 
     .title-container .contact {
         padding-top: 1em;
-        flex-direction: column;
         font-size: 14px;
-    }
-
-    .title-container .contact .contact-item {
-        padding: 0.5em 0;
-        border-right:none;
     }
 
     .information-container .information-content {
