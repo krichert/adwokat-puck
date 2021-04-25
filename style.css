@@ -75,8 +75,8 @@ body {
 
 .arrow-icon {
     font-size: 50px;
-    position: absolute;
-    bottom: 30px;
+    padding-bottom: 5px;
+    padding-top: 15px;
     z-index: 1000;
 }
 
@@ -157,7 +157,7 @@ footer {
 
     .arrow-icon {
         font-size: 45px;
-        bottom: 20px;
+        padding-top: 0;
     }
 }
 
@@ -186,7 +186,6 @@ footer {
 
     .arrow-icon {
         font-size: 40px;
-        bottom: 10px;
     }
 }
 
