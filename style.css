@@ -15,13 +15,20 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-container-inner {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .title-container .logo {
     width: 35%;
-    z-index: 1000;
 }
 
 .title-container .contact {
@@ -30,7 +37,6 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
 }
 
 .title-container .contact .contact-item {
@@ -39,7 +45,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    z-index: 1000;
 }
 
 .title-container .contact .contact-item a {
@@ -49,22 +54,16 @@ body {
 
 .title-container .contact .contact-item:last-child {
     border-right: none;
-    z-index: 1000;
 }
 
 .title-container .contact .contact-item svg {
     margin-right: 10px;
-    z-index: 1000;
-}
-.title-container h1 {
-    z-index: 1000;
 }
 
 .arrow-icon {
     font-size: 50px;
-    position: absolute;
-    bottom: 30px;
-    z-index: 1000;
+    margin-bottom: 15px;
+    height: 100%;
 }
 
 .arrow-icon a {
@@ -174,11 +173,5 @@ footer {
     .arrow-icon {
         font-size: 40px;
         bottom: 10px;
-    }
-}
-
-@media screen and (max-height: 750px) and (min-width: 1024px) {
-    .arrow-icon {
-        display: none;
     }
 }
